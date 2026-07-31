@@ -21,10 +21,10 @@
   "homepage": "https://allratestoday.com/central-bank-rates-api/norges/",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Exchange-RateAPI/norges-bank-exchange-rate.git"
+    "url": "git+https://github.com/AllRates-Today/norges-bank-exchange-rate.git"
   },
   "bugs": {
-    "url": "https://github.com/Exchange-RateAPI/norges-bank-exchange-rate/issues"
+    "url": "https://github.com/AllRates-Today/norges-bank-exchange-rate/issues"
   },
   "license": "MIT",
   "author": "AllRatesToday <hello@allratestoday.com> (https://allratestoday.com)",
