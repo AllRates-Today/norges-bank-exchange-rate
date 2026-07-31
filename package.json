@@ -1,0 +1,53 @@
+{
+  "name": "norges-bank-exchange-rate",
+  "version": "1.0.0",
+  "description": "Official Norges Bank (Norway) daily exchange rates — ~40 currencies vs NOK, history since 2016. Zero-dependency Node.js/TypeScript client.",
+  "keywords": [
+    "norges",
+    "norges",
+    "bank",
+    "exchange-rate",
+    "exchange-rates",
+    "currency",
+    "forex",
+    "fx",
+    "nok",
+    "central-bank",
+    "official-rates",
+    "norway",
+    "api",
+    "typescript"
+  ],
+  "homepage": "https://allratestoday.com/central-bank-rates-api/norges/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Exchange-RateAPI/norges-bank-exchange-rate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Exchange-RateAPI/norges-bank-exchange-rate/issues"
+  },
+  "license": "MIT",
+  "author": "AllRatesToday <hello@allratestoday.com> (https://allratestoday.com)",
+  "type": "module",
+  "main": "./index.cjs",
+  "module": "./index.mjs",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.mjs",
+      "require": "./index.cjs"
+    }
+  },
+  "files": [
+    "index.mjs",
+    "index.cjs",
+    "index.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "sideEffects": false
+}
