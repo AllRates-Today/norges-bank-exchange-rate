@@ -1,6 +1,6 @@
 {
   "name": "norges-bank-exchange-rate",
-  "version": "1.2.2",
+  "version": "1.3.0",
   "description": "Official Norges Bank (Norway) daily exchange rates — 36 currencies vs NOK, history since 2016. Zero-dependency Node.js/TypeScript client.",
   "keywords": [
     "norges",

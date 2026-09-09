@@ -70,10 +70,10 @@ const pair = await getRate('USD', 'NOK', { apiKey: 'art_live_...' });
 {
   bank: 'norges',
   name: 'Norges Bank',
-  rate_date: '2026-08-11',   // Norges Bank's own publication date
+  rate_date: '2026-09-09',   // Norges Bank's own publication date
   source: 'USD',
   target: 'NOK',
-  rate: 9.5065,
+  rate: 9.1808,
   rate_type: 'middle',
   derived: false,
   method: 'published',
@@ -98,9 +98,9 @@ console.log(table.rate_date, table.rates.length);
 {
   bank: 'norges',
   name: 'Norges Bank',
-  rate_date: '2026-08-11',
+  rate_date: '2026-09-09',
   rates: [
-    { "base": "USD", "quote": "NOK", "type": "middle", "value": 9.5065 },
+    { "base": "USD", "quote": "NOK", "type": "middle", "value": 9.1808 },
     // … the rest of the published table (36 currencies vs NOK)
   ],
   disclaimer: '…'
@@ -140,7 +140,7 @@ Paid plans. One resolved rate per publication date — ready for charting, reval
 import { getHistory } from 'norges-bank-exchange-rate';
 
 const series = await getHistory(
-  { source: 'USD', target: 'NOK', from: '2026-01-01', to: '2026-08-11' },
+  { source: 'USD', target: 'NOK', from: '2026-01-01', to: '2026-09-09' },
   { apiKey: 'art_live_...' }
 );
 ```
@@ -153,11 +153,11 @@ const series = await getHistory(
   source: 'USD',
   target: 'NOK',
   from: '2026-01-01',
-  to: '2026-08-11',
+  to: '2026-09-09',
   count: 152,
   rates: [
     // one entry per publication date
-    { date: '2026-08-11', rate: 9.5065, rate_type: 'middle', derived: false, method: 'published' },
+    { date: '2026-09-09', rate: 9.1808, rate_type: 'middle', derived: false, method: 'published' },
     // …
   ],
   disclaimer: '…'
@@ -170,9 +170,9 @@ Pass `{ symbol: 'USD' }` instead of `source`/`target` to get the raw published r
 
 ## 🗺️ Currencies covered
 
-Norges Bank currently publishes rates covering **37 currencies** (as of the latest table):
+Norges Bank currently publishes rates covering **36 currencies** against the NOK (as of the latest table):
 
-`AUD` · `BDT` · `BRL` · `BYN` · `CAD` · `CHF` · `CNY` · `CZK` · `DKK` · `EUR` · `GBP` · `HKD` · `HUF` · `IDR` · `ILS` · `INR` · `ISK` · `JPY` · `KRW` · `MMK` · `MXN` · `MYR` · `NOK` · `NZD` · `PHP` · `PKR` · `PLN` · `RON` · `SEK` · `SGD` · `THB` · `TRY` · `TWD` · `USD` · `VND` · `XDR` · `ZAR`
+🇦🇺 `AUD` · 🇧🇩 `BDT` · 🇧🇷 `BRL` · 🇧🇾 `BYN` · 🇨🇦 `CAD` · 🇨🇭 `CHF` · 🇨🇳 `CNY` · 🇨🇿 `CZK` · 🇩🇰 `DKK` · 🇪🇺 `EUR` · 🇬🇧 `GBP` · 🇭🇰 `HKD` · 🇭🇺 `HUF` · 🇮🇩 `IDR` · 🇮🇱 `ILS` · 🇮🇳 `INR` · 🇮🇸 `ISK` · 🇯🇵 `JPY` · 🇰🇷 `KRW` · 🇲🇲 `MMK` · 🇲🇽 `MXN` · 🇲🇾 `MYR` · 🇳🇿 `NZD` · 🇵🇭 `PHP` · 🇵🇰 `PKR` · 🇵🇱 `PLN` · 🇷🇴 `RON` · 🇸🇪 `SEK` · 🇸🇬 `SGD` · 🇹🇭 `THB` · 🇹🇷 `TRY` · 🇹🇼 `TWD` · 🇺🇸 `USD` · 🇻🇳 `VND` · `XDR` · 🇿🇦 `ZAR`
 
 ## ⚖️ Published vs derived rates
 
@@ -235,6 +235,14 @@ getRate('USD', 'NOK', { apiKey: 'art_live_...' }).then((pair) => console.log(pai
 | `getLatestRates({ apiKey })` | Free | The central bank's full latest published table |
 | `getRatesForDate(date, { apiKey, source?, target? })` | Paid | The official table (or one pair) for a YYYY-MM-DD date |
 | `getHistory({ symbol \| source+target, from?, to? }, { apiKey })` | Paid | Daily series since 2016 |
+
+## 📥 Bulk data (no key)
+
+Need the whole archive rather than an API call? The same published tables are mirrored daily as open data:
+
+- Hugging Face: [AllRates/central-bank-exchange-rates](https://huggingface.co/datasets/AllRates/central-bank-exchange-rates) — one CSV per institution (`rates/norges.csv`)
+- Kaggle: [allratestoday/central-bank-exchange-rates](https://www.kaggle.com/datasets/allratestoday/central-bank-exchange-rates)
+- CDN JSON: `https://cdn.jsdelivr.net/gh/AllRates-Today/central-bank-exchange-rates@main/data/norges/latest.json`
 
 ## 🔗 Links
 
