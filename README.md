@@ -85,10 +85,10 @@ const pair = await getRate('USD', 'NOK', { apiKey: 'art_live_...' });
 {
   bank: 'norges',
   name: 'Norges Bank',
-  rate_date: '2026-09-25',   // Norges Bank's own publication date
+  rate_date: '2026-10-06',   // Norges Bank's own publication date
   source: 'USD',
   target: 'NOK',
-  rate: 9.5063,
+  rate: 9.5643,
   rate_type: 'middle',
   derived: false,
   method: 'published',
@@ -113,9 +113,9 @@ console.log(table.rate_date, table.rates.length);
 {
   bank: 'norges',
   name: 'Norges Bank',
-  rate_date: '2026-09-25',
+  rate_date: '2026-10-06',
   rates: [
-    { "base": "USD", "quote": "NOK", "type": "middle", "value": 9.5063 },
+    { "base": "USD", "quote": "NOK", "type": "middle", "value": 9.5643 },
     // … the rest of the published table (36 currencies vs NOK)
   ],
   disclaimer: '…'
@@ -155,7 +155,7 @@ Paid plans. One resolved rate per publication date — ready for charting, reval
 import { getHistory } from 'norges-bank-exchange-rate';
 
 const series = await getHistory(
-  { source: 'USD', target: 'NOK', from: '2026-01-01', to: '2026-09-25' },
+  { source: 'USD', target: 'NOK', from: '2026-01-01', to: '2026-10-06' },
   { apiKey: 'art_live_...' }
 );
 ```
@@ -168,11 +168,11 @@ const series = await getHistory(
   source: 'USD',
   target: 'NOK',
   from: '2026-01-01',
-  to: '2026-09-25',
+  to: '2026-10-06',
   count: 152,
   rates: [
     // one entry per publication date
-    { date: '2026-09-25', rate: 9.5063, rate_type: 'middle', derived: false, method: 'published' },
+    { date: '2026-10-06', rate: 9.5643, rate_type: 'middle', derived: false, method: 'published' },
     // …
   ],
   disclaimer: '…'
