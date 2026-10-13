@@ -42,47 +42,47 @@ The open endpoint serves the *latest* table only and asks for a visible attribut
 The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The text copy below is there for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-12** by Norges Bank — 37 rates. Updated 2026-10-12.
+Published **2026-10-13** by Norges Bank — 37 rates. Updated 2026-10-13.
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AUD | NOK | middle | 6.6713 |
-| BDT | NOK | middle | 0.0777 |
-| BRL | NOK | middle | 1.9161 |
-| BYN | NOK | middle | 3.1678 |
-| CAD | NOK | middle | 6.7073 |
-| CHF | NOK | middle | 11.4857 |
-| CNY | NOK | middle | 1.4293 |
-| CZK | NOK | middle | 0.4385 |
-| DKK | NOK | middle | 1.4309 |
-| EUR | NOK | middle | 10.6955 |
-| GBP | NOK | middle | 12.6607 |
-| HKD | NOK | middle | 1.219 |
-| HUF | NOK | middle | 0.029292 |
-| IDR | NOK | middle | 0.00053381 |
-| ILS | NOK | middle | 3.1164 |
-| INR | NOK | middle | 0.09988 |
-| ISK | NOK | middle | 0.0784 |
-| JPY | NOK | middle | 0.060314 |
-| KRW | NOK | middle | 0.007176 |
-| MMK | NOK | middle | 0.004555 |
-| MXN | NOK | middle | 0.5215 |
-| MYR | NOK | middle | 2.3423 |
-| NZD | NOK | middle | 5.3563 |
-| PHP | NOK | middle | 0.15242 |
-| PKR | NOK | middle | 0.03455 |
-| PLN | NOK | middle | 2.4391 |
-| RON | NOK | middle | 2.004 |
-| SEK | NOK | middle | 0.9553 |
-| SGD | NOK | middle | 7.4721 |
-| THB | NOK | middle | 0.28457 |
-| TRY | NOK | middle | 0.1939 |
-| TWD | NOK | middle | 0.29959 |
-| TWI | NOK | middle | 121.92 |
-| USD | NOK | middle | 9.5658 |
-| VND | NOK | middle | 0.000369 |
-| XDR | NOK | middle | 12.93455 |
-| ZAR | NOK | middle | 0.5783 |
+| AUD | NOK | middle | 6.6541 |
+| BDT | NOK | middle | 0.0774 |
+| BRL | NOK | middle | 1.9008 |
+| BYN | NOK | middle | 3.1643 |
+| CAD | NOK | middle | 6.6959 |
+| CHF | NOK | middle | 11.4567 |
+| CNY | NOK | middle | 1.4246 |
+| CZK | NOK | middle | 0.43781 |
+| DKK | NOK | middle | 1.4272 |
+| EUR | NOK | middle | 10.6685 |
+| GBP | NOK | middle | 12.6314 |
+| HKD | NOK | middle | 1.2151 |
+| HUF | NOK | middle | 0.029284 |
+| IDR | NOK | middle | 0.0005333 |
+| ILS | NOK | middle | 3.1009 |
+| INR | NOK | middle | 0.10008 |
+| ISK | NOK | middle | 0.0783 |
+| JPY | NOK | middle | 0.060305 |
+| KRW | NOK | middle | 0.007108 |
+| MMK | NOK | middle | 0.004541 |
+| MXN | NOK | middle | 0.5201 |
+| MYR | NOK | middle | 2.3337 |
+| NZD | NOK | middle | 5.3527 |
+| PHP | NOK | middle | 0.15192 |
+| PKR | NOK | middle | 0.03444 |
+| PLN | NOK | middle | 2.4375 |
+| RON | NOK | middle | 1.9992 |
+| SEK | NOK | middle | 0.9551 |
+| SGD | NOK | middle | 7.4506 |
+| THB | NOK | middle | 0.28389 |
+| TRY | NOK | middle | 0.1932 |
+| TWD | NOK | middle | 0.29654 |
+| TWI | NOK | middle | 121.66 |
+| USD | NOK | middle | 9.5357 |
+| VND | NOK | middle | 0.000368 |
+| XDR | NOK | middle | 12.89937 |
+| ZAR | NOK | middle | 0.578 |
 
 Source: [Official rates published by NORGES, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/norges/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
