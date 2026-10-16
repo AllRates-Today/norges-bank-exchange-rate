@@ -42,47 +42,47 @@ The open endpoint serves the *latest* table only and asks for a visible attribut
 The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The text copy below is there for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-15** by Norges Bank — 37 rates. Updated 2026-10-15.
+Published **2026-10-16** by Norges Bank — 37 rates. Updated 2026-10-16.
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AUD | NOK | middle | 6.568 |
-| BDT | NOK | middle | 0.0773 |
-| BRL | NOK | middle | 1.8794 |
-| BYN | NOK | middle | 3.1464 |
-| CAD | NOK | middle | 6.6897 |
-| CHF | NOK | middle | 11.4476 |
-| CNY | NOK | middle | 1.4204 |
-| CZK | NOK | middle | 0.4374 |
-| DKK | NOK | middle | 1.425 |
-| EUR | NOK | middle | 10.652 |
-| GBP | NOK | middle | 12.5895 |
-| HKD | NOK | middle | 1.2111 |
-| HUF | NOK | middle | 0.029296 |
-| IDR | NOK | middle | 0.00052963 |
-| ILS | NOK | middle | 3.0636 |
-| INR | NOK | middle | 0.09998 |
-| ISK | NOK | middle | 0.0781 |
-| JPY | NOK | middle | 0.06016 |
-| KRW | NOK | middle | 0.007061 |
-| MMK | NOK | middle | 0.004526 |
-| MXN | NOK | middle | 0.5131 |
-| MYR | NOK | middle | 2.3279 |
-| NZD | NOK | middle | 5.3228 |
-| PHP | NOK | middle | 0.15068 |
-| PKR | NOK | middle | 0.03433 |
-| PLN | NOK | middle | 2.4375 |
-| RON | NOK | middle | 1.9971 |
-| SEK | NOK | middle | 0.9531 |
-| SGD | NOK | middle | 7.408 |
-| THB | NOK | middle | 0.28336 |
-| TRY | NOK | middle | 0.1923 |
-| TWD | NOK | middle | 0.29305 |
-| TWI | NOK | middle | 121.38 |
-| USD | NOK | middle | 9.5039 |
-| VND | NOK | middle | 0.000367 |
-| XDR | NOK | middle | 12.86495 |
-| ZAR | NOK | middle | 0.574 |
+| AUD | NOK | middle | 6.5698 |
+| BDT | NOK | middle | 0.0768 |
+| BRL | NOK | middle | 1.8574 |
+| BYN | NOK | middle | 3.1381 |
+| CAD | NOK | middle | 6.6671 |
+| CHF | NOK | middle | 11.4582 |
+| CNY | NOK | middle | 1.412 |
+| CZK | NOK | middle | 0.43679 |
+| DKK | NOK | middle | 1.4213 |
+| EUR | NOK | middle | 10.624 |
+| GBP | NOK | middle | 12.5899 |
+| HKD | NOK | middle | 1.203 |
+| HUF | NOK | middle | 0.029261 |
+| IDR | NOK | middle | 0.0005236 |
+| ILS | NOK | middle | 3.0509 |
+| INR | NOK | middle | 0.09942 |
+| ISK | NOK | middle | 0.078 |
+| JPY | NOK | middle | 0.059746 |
+| KRW | NOK | middle | 0.007087 |
+| MMK | NOK | middle | 0.004496 |
+| MXN | NOK | middle | 0.5136 |
+| MYR | NOK | middle | 2.3131 |
+| NZD | NOK | middle | 5.3473 |
+| PHP | NOK | middle | 0.14993 |
+| PKR | NOK | middle | 0.0341 |
+| PLN | NOK | middle | 2.4311 |
+| RON | NOK | middle | 1.9929 |
+| SEK | NOK | middle | 0.9533 |
+| SGD | NOK | middle | 7.3803 |
+| THB | NOK | middle | 0.28254 |
+| TRY | NOK | middle | 0.1906 |
+| TWD | NOK | middle | 0.29116 |
+| TWI | NOK | middle | 121.12 |
+| USD | NOK | middle | 9.441 |
+| VND | NOK | middle | 0.000365 |
+| XDR | NOK | middle | 12.80337 |
+| ZAR | NOK | middle | 0.5745 |
 
 Source: [Official rates published by NORGES, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/norges/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
@@ -276,7 +276,7 @@ curl "https://allratestoday.com/api/v1/central-bank/norges/latest?format=xml&api
 - MCP server: `npx -y @allratestoday/central-bank-mcp` (stdio) or the hosted endpoint `https://allratestoday.com/api/mcp` — tools for official rates, history, cross-bank comparison and publication calendars
 - Already using the general SDK or MCP server? Since 2026-10-01 [`@allratestoday/sdk`](https://www.npmjs.com/package/@allratestoday/sdk) 1.4+ has `officialRates('norges')` and [`@allratestoday/mcp-server`](https://www.npmjs.com/package/@allratestoday/mcp-server) 0.6+ has a `get_official_rates` tool — both return this source's latest table with no key, so you can add it without a second dependency
 - Claude Code plugin (no key): `/plugin marketplace add AllRates-Today/claude-code-plugin` then `/plugin install allratestoday@allratestoday` — bundles both MCP servers plus an `/official-rate norges ...` command
-- Need dated tables or history for an evaluation? Agents can self-issue a trial key with no signup: `POST https://allratestoday.com/api/agent/keys` (send `Content-Type: application/json`) returns a 100-call key valid 7 days; the MCP servers expose it as `request_trial_key`
+- Evaluating? Agents can self-issue a trial key with no signup: `POST https://allratestoday.com/api/agent/keys` (send `Content-Type: application/json`) returns a 100-call key valid 7 days that covers the free-plan methods (latest table, pairs); dated tables and history need a [paid plan](https://allratestoday.com/pricing/). The MCP servers expose it as `request_trial_key`
 - Machine-readable site guide: [llms.txt](https://allratestoday.com/llms.txt) · [for-ai-agents](https://allratestoday.com/for-ai-agents/)
 
 ## ⚖️ Published vs derived rates
