@@ -20,6 +20,10 @@
 
 > **Official rate, not mid-market:** every value here is a number Norges Bank itself published, fixed once printed and carrying the central bank's own `rate_date` — what filings and audits require. Need the live mid-market rate for pricing or display instead? Use the [mid-market API](https://allratestoday.com/docs/) or [`@allratestoday/sdk`](https://www.npmjs.com/package/@allratestoday/sdk). The two can diverge by several percent.
 
+## 🔑 Get your API key
+
+Get a free API key at [allratestoday.com/register](https://allratestoday.com/register) — no credit card required. Latest rates are on every plan, including free.
+
 ## ⚡ Try it without a key
 
 The latest Norges Bank table is also served keyless, CORS-open and edge-cached, for evaluation, embeds and AI agents:
@@ -43,56 +47,52 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-19 by Norges Bank — 37 rates. Updated 2026-10-19.</summary>
+<summary>Table as text: published 2026-10-20 by Norges Bank — 37 rates. Updated 2026-10-20.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AUD | NOK | middle | 6.5693 |
-| BDT | NOK | middle | 0.076 |
-| BRL | NOK | middle | 1.8638 |
-| BYN | NOK | middle | 3.1481 |
-| CAD | NOK | middle | 6.6815 |
-| CHF | NOK | middle | 11.3978 |
-| CNY | NOK | middle | 1.4076 |
-| CZK | NOK | middle | 0.43362 |
-| DKK | NOK | middle | 1.4122 |
-| EUR | NOK | middle | 10.5555 |
-| GBP | NOK | middle | 12.5355 |
-| HKD | NOK | middle | 1.1982 |
-| HUF | NOK | middle | 0.029047 |
-| IDR | NOK | middle | 0.00052118 |
-| ILS | NOK | middle | 3.0254 |
-| INR | NOK | middle | 0.09906 |
-| ISK | NOK | middle | 0.0774 |
-| JPY | NOK | middle | 0.059424 |
-| KRW | NOK | middle | 0.007073 |
-| MMK | NOK | middle | 0.004478 |
-| MXN | NOK | middle | 0.5087 |
-| MYR | NOK | middle | 2.3034 |
-| NZD | NOK | middle | 5.3332 |
-| PHP | NOK | middle | 0.14927 |
-| PKR | NOK | middle | 0.03397 |
-| PLN | NOK | middle | 2.4147 |
-| RON | NOK | middle | 1.9817 |
-| SEK | NOK | middle | 0.9506 |
-| SGD | NOK | middle | 7.3522 |
-| THB | NOK | middle | 0.28025 |
-| TRY | NOK | middle | 0.1898 |
-| TWD | NOK | middle | 0.2896 |
-| TWI | NOK | middle | 120.57 |
-| USD | NOK | middle | 9.4036 |
+| AUD | NOK | middle | 6.5549 |
+| BDT | NOK | middle | 0.0759 |
+| BRL | NOK | middle | 1.8681 |
+| BYN | NOK | middle | 3.1492 |
+| CAD | NOK | middle | 6.6788 |
+| CHF | NOK | middle | 11.3939 |
+| CNY | NOK | middle | 1.4053 |
+| CZK | NOK | middle | 0.43259 |
+| DKK | NOK | middle | 1.408 |
+| EUR | NOK | middle | 10.5245 |
+| GBP | NOK | middle | 12.525 |
+| HKD | NOK | middle | 1.1957 |
+| HUF | NOK | middle | 0.02886 |
+| IDR | NOK | middle | 0.00052178 |
+| ILS | NOK | middle | 3.0197 |
+| INR | NOK | middle | 0.09886 |
+| ISK | NOK | middle | 0.0773 |
+| JPY | NOK | middle | 0.059346 |
+| KRW | NOK | middle | 0.007067 |
+| MMK | NOK | middle | 0.004469 |
+| MXN | NOK | middle | 0.5067 |
+| MYR | NOK | middle | 2.2985 |
+| NZD | NOK | middle | 5.3294 |
+| PHP | NOK | middle | 0.14864 |
+| PKR | NOK | middle | 0.03391 |
+| PLN | NOK | middle | 2.4046 |
+| RON | NOK | middle | 1.9743 |
+| SEK | NOK | middle | 0.9462 |
+| SGD | NOK | middle | 7.3403 |
+| THB | NOK | middle | 0.27888 |
+| TRY | NOK | middle | 0.1893 |
+| TWD | NOK | middle | 0.2872 |
+| TWI | NOK | middle | 120.22 |
+| USD | NOK | middle | 9.3843 |
 | VND | NOK | middle | 0.000363 |
-| XDR | NOK | middle | 12.74248 |
-| ZAR | NOK | middle | 0.5722 |
+| XDR | NOK | middle | 12.71532 |
+| ZAR | NOK | middle | 0.5696 |
 
 </details>
 
 Source: [Official rates published by NORGES, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/norges/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
-
-## 🔑 Get your API key
-
-Get a free API key at [allratestoday.com/register](https://allratestoday.com/register) — no credit card required. Latest rates are on every plan, including free.
 
 ## 📦 Installation
 
