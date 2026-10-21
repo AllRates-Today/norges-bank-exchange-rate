@@ -37,7 +37,7 @@ const r = await fetch('https://allratestoday.com/api/open/central-bank/norges').
 console.log(r.rate_date, r.rates.length); // the central bank's latest published table, no key
 ```
 
-The open endpoint serves the *latest* table only (JSON by default; add `?format=csv`, `xml` or `xlsx` for a file) and asks for a visible attribution link. The client below uses the keyed API, which adds point-in-time tables and history.
+The open endpoint serves the *latest* table only (JSON by default; add `?format=csv`, `xml` or `xlsx` for a file) and is free to use with a visible, followable link where the rates are shown: `<a href="https://allratestoday.com">Exchange rates by AllRatesToday</a>` (terms: <https://allratestoday.com/terms/#attribution>). The client below uses the keyed API, which adds point-in-time tables and history; with a key the link is appreciated, not required.
 
 ## 📈 Latest published table
 
@@ -47,47 +47,47 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-20 by Norges Bank — 37 rates. Updated 2026-10-20.</summary>
+<summary>Table as text: published 2026-10-21 by Norges Bank — 37 rates. Updated 2026-10-21.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AUD | NOK | middle | 6.5549 |
-| BDT | NOK | middle | 0.0759 |
-| BRL | NOK | middle | 1.8681 |
-| BYN | NOK | middle | 3.1492 |
-| CAD | NOK | middle | 6.6788 |
-| CHF | NOK | middle | 11.3939 |
-| CNY | NOK | middle | 1.4053 |
-| CZK | NOK | middle | 0.43259 |
-| DKK | NOK | middle | 1.408 |
-| EUR | NOK | middle | 10.5245 |
-| GBP | NOK | middle | 12.525 |
-| HKD | NOK | middle | 1.1957 |
-| HUF | NOK | middle | 0.02886 |
-| IDR | NOK | middle | 0.00052178 |
-| ILS | NOK | middle | 3.0197 |
-| INR | NOK | middle | 0.09886 |
-| ISK | NOK | middle | 0.0773 |
-| JPY | NOK | middle | 0.059346 |
-| KRW | NOK | middle | 0.007067 |
-| MMK | NOK | middle | 0.004469 |
-| MXN | NOK | middle | 0.5067 |
-| MYR | NOK | middle | 2.2985 |
-| NZD | NOK | middle | 5.3294 |
-| PHP | NOK | middle | 0.14864 |
-| PKR | NOK | middle | 0.03391 |
-| PLN | NOK | middle | 2.4046 |
-| RON | NOK | middle | 1.9743 |
-| SEK | NOK | middle | 0.9462 |
-| SGD | NOK | middle | 7.3403 |
-| THB | NOK | middle | 0.27888 |
-| TRY | NOK | middle | 0.1893 |
-| TWD | NOK | middle | 0.2872 |
-| TWI | NOK | middle | 120.22 |
-| USD | NOK | middle | 9.3843 |
-| VND | NOK | middle | 0.000363 |
-| XDR | NOK | middle | 12.71532 |
-| ZAR | NOK | middle | 0.5696 |
+| AUD | NOK | middle | 6.5819 |
+| BDT | NOK | middle | 0.0757 |
+| BRL | NOK | middle | 1.8628 |
+| BYN | NOK | middle | 3.1455 |
+| CAD | NOK | middle | 6.662 |
+| CHF | NOK | middle | 11.357 |
+| CNY | NOK | middle | 1.4016 |
+| CZK | NOK | middle | 0.43327 |
+| DKK | NOK | middle | 1.4064 |
+| EUR | NOK | middle | 10.512 |
+| GBP | NOK | middle | 12.5404 |
+| HKD | NOK | middle | 1.1924 |
+| HUF | NOK | middle | 0.0288 |
+| IDR | NOK | middle | 0.00051862 |
+| ILS | NOK | middle | 3.0271 |
+| INR | NOK | middle | 0.09905 |
+| ISK | NOK | middle | 0.0772 |
+| JPY | NOK | middle | 0.059269 |
+| KRW | NOK | middle | 0.007059 |
+| MMK | NOK | middle | 0.004456 |
+| MXN | NOK | middle | 0.5063 |
+| MYR | NOK | middle | 2.293 |
+| NZD | NOK | middle | 5.3266 |
+| PHP | NOK | middle | 0.1478 |
+| PKR | NOK | middle | 0.03381 |
+| PLN | NOK | middle | 2.4091 |
+| RON | NOK | middle | 1.9698 |
+| SEK | NOK | middle | 0.9472 |
+| SGD | NOK | middle | 7.3265 |
+| THB | NOK | middle | 0.2787 |
+| TRY | NOK | middle | 0.1886 |
+| TWD | NOK | middle | 0.28898 |
+| TWI | NOK | middle | 120.16 |
+| USD | NOK | middle | 9.3573 |
+| VND | NOK | middle | 0.000362 |
+| XDR | NOK | middle | 12.69125 |
+| ZAR | NOK | middle | 0.5715 |
 
 </details>
 
