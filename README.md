@@ -32,47 +32,47 @@ The image is rendered live from the keyless endpoint, so it follows the central 
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-11-04 by Norges Bank — 37 rates. Updated 2026-11-04.</summary>
+<summary>Table as text: published 2026-11-05 by Norges Bank — 37 rates. Updated 2026-11-05.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AUD | NOK | middle | 6.4734 |
-| BDT | NOK | middle | 0.0741 |
-| BRL | NOK | middle | 1.6884 |
-| BYN | NOK | middle | 3.0921 |
-| CAD | NOK | middle | 6.6219 |
-| CHF | NOK | middle | 11.3158 |
-| CNY | NOK | middle | 1.383 |
-| CZK | NOK | middle | 0.4277 |
-| DKK | NOK | middle | 1.3911 |
-| EUR | NOK | middle | 10.397 |
-| GBP | NOK | middle | 12.4575 |
-| HKD | NOK | middle | 1.1761 |
-| HUF | NOK | middle | 0.02864 |
-| IDR | NOK | middle | 0.00050901 |
-| ILS | NOK | middle | 2.9171 |
-| INR | NOK | middle | 0.0975 |
-| ISK | NOK | middle | 0.076 |
-| JPY | NOK | middle | 0.058312 |
-| KRW | NOK | middle | 0.006894 |
-| MMK | NOK | middle | 0.004394 |
-| MXN | NOK | middle | 0.4949 |
-| MYR | NOK | middle | 2.2706 |
-| NZD | NOK | middle | 5.2016 |
-| PHP | NOK | middle | 0.14525 |
-| PKR | NOK | middle | 0.03336 |
-| PLN | NOK | middle | 2.3635 |
-| RON | NOK | middle | 1.9455 |
-| SEK | NOK | middle | 0.9476 |
-| SGD | NOK | middle | 7.2211 |
-| THB | NOK | middle | 0.27431 |
-| TRY | NOK | middle | 0.1845 |
-| TWD | NOK | middle | 0.28087 |
-| TWI | NOK | middle | 118.95 |
-| USD | NOK | middle | 9.2278 |
-| VND | NOK | middle | 0.000359 |
-| XDR | NOK | middle | 12.53336 |
-| ZAR | NOK | middle | 0.5608 |
+| AUD | NOK | middle | 6.5094 |
+| BDT | NOK | middle | 0.0747 |
+| BRL | NOK | middle | 1.701 |
+| BYN | NOK | middle | 3.1161 |
+| CAD | NOK | middle | 6.6581 |
+| CHF | NOK | middle | 11.3687 |
+| CNY | NOK | middle | 1.3944 |
+| CZK | NOK | middle | 0.42968 |
+| DKK | NOK | middle | 1.3962 |
+| EUR | NOK | middle | 10.4365 |
+| GBP | NOK | middle | 12.5148 |
+| HKD | NOK | middle | 1.1852 |
+| HUF | NOK | middle | 0.028736 |
+| IDR | NOK | middle | 0.00051459 |
+| ILS | NOK | middle | 2.9318 |
+| INR | NOK | middle | 0.09842 |
+| ISK | NOK | middle | 0.0763 |
+| JPY | NOK | middle | 0.058681 |
+| KRW | NOK | middle | 0.006915 |
+| MMK | NOK | middle | 0.004428 |
+| MXN | NOK | middle | 0.5002 |
+| MYR | NOK | middle | 2.2982 |
+| NZD | NOK | middle | 5.2271 |
+| PHP | NOK | middle | 0.1476 |
+| PKR | NOK | middle | 0.03362 |
+| PLN | NOK | middle | 2.3779 |
+| RON | NOK | middle | 1.9549 |
+| SEK | NOK | middle | 0.9501 |
+| SGD | NOK | middle | 7.2799 |
+| THB | NOK | middle | 0.27806 |
+| TRY | NOK | middle | 0.1858 |
+| TWD | NOK | middle | 0.28227 |
+| TWI | NOK | middle | 119.46 |
+| USD | NOK | middle | 9.2984 |
+| VND | NOK | middle | 0.000362 |
+| XDR | NOK | middle | 12.61105 |
+| ZAR | NOK | middle | 0.5664 |
 
 </details>
 
